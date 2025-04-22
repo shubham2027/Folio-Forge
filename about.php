@@ -203,59 +203,38 @@ if(!isset($_SESSION)) { session_start(); }
     <!-- Mission Section -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col lg:flex-row items-center">
-                <div class="lg:w-1/2 lg:pr-16 mb-10 lg:mb-0">
-                    <h2 class="text-4xl font-bold mb-6 text-gray-800 leading-tight">Our <span class="text-primary-gradient">Mission</span> & Vision</h2>
-                    <p class="text-lg text-gray-600 mb-6">
-                        We believe every creative professional deserves a beautiful portfolio that helps them stand out. 
-                        Our mission is to provide freelancers with powerful tools to showcase their work and connect with clients, 
-                        without requiring any technical skills.
-                    </p>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
-                        <div class="bg-gray-50 p-5 rounded-lg">
-                            <div class="text-teal-500 text-3xl mb-3">
-                                <i class="fas fa-rocket"></i>
-                            </div>
-                            <h3 class="font-bold text-gray-800 mb-2">Innovation</h3>
-                            <p class="text-gray-600 text-sm">Continuously improving our platform with cutting-edge features.</p>
-                        </div>
-                        <div class="bg-gray-50 p-5 rounded-lg">
-                            <div class="text-teal-500 text-3xl mb-3">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <h3 class="font-bold text-gray-800 mb-2">Community</h3>
-                            <p class="text-gray-600 text-sm">Building connections between freelancers and potential clients.</p>
-                        </div>
+            <div class="text-center mb-10">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800 leading-tight">Our <span class="text-primary-gradient">Mission</span> & Vision</h2>
+                <p class="text-lg text-gray-600 mb-6 max-w-3xl mx-auto">
+                    We believe every creative professional deserves a beautiful portfolio that helps them stand out. 
+                    Our mission is to provide freelancers with powerful tools to showcase their work and connect with clients, 
+                    without requiring any technical skills.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-teal-500 text-3xl mb-4 text-center">
+                        <i class="fas fa-rocket"></i>
                     </div>
+                    <h3 class="font-bold text-gray-800 mb-3 text-center text-xl">Innovation</h3>
+                    <p class="text-gray-600 text-center">Continuously improving our platform with cutting-edge features that help freelancers present their work effectively.</p>
                 </div>
-                <div class="lg:w-1/2 bg-gradient-to-br from-teal-500 to-teal-700 rounded-2xl p-8 text-white relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-40 h-40 bg-white rounded-full opacity-10 -mr-10 -mt-10"></div>
-                    <div class="relative z-10">
-                        <h3 class="text-2xl font-bold mb-4">Our Core Values</h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle mt-1 mr-3 text-teal-200"></i>
-                                <div>
-                                    <h4 class="font-bold">Accessibility</h4>
-                                    <p class="text-teal-100 text-sm">Making professional portfolio creation accessible to everyone.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle mt-1 mr-3 text-teal-200"></i>
-                                <div>
-                                    <h4 class="font-bold">Quality</h4>
-                                    <p class="text-teal-100 text-sm">Maintaining high standards in design and functionality.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fas fa-check-circle mt-1 mr-3 text-teal-200"></i>
-                                <div>
-                                    <h4 class="font-bold">Empowerment</h4>
-                                    <p class="text-teal-100 text-sm">Giving freelancers the tools they need to succeed professionally.</p>
-                                </div>
-                            </li>
-                        </ul>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-teal-500 text-3xl mb-4 text-center">
+                        <i class="fas fa-star"></i>
                     </div>
+                    <h3 class="font-bold text-gray-800 mb-3 text-center text-xl">Core Values</h3>
+                    <p class="text-gray-600 text-center">Our platform is designed to be intuitive for all users while maintaining professional standards that help freelancers showcase their best work.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                    <div class="text-teal-500 text-3xl mb-4 text-center">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-3 text-center text-xl">Community</h3>
+                    <p class="text-gray-600 text-center">Building connections between freelancers and potential clients to create meaningful professional relationships.</p>
                 </div>
             </div>
         </div>
