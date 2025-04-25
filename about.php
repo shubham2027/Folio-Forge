@@ -241,7 +241,7 @@ if(!isset($_SESSION)) { session_start(); }
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-gray-50">
+<!--     <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-3xl font-bold mb-8">Ready to Join Our <span class="text-primary-gradient">Community?</span></h2>
             <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
@@ -256,7 +256,7 @@ if(!isset($_SESSION)) { session_start(); }
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer-custom py-8 mt-auto">
         <div class="container mx-auto px-4 text-center">
